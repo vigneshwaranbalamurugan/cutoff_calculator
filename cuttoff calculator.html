@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+.container {
+    border-color: black;
+    background-color: lightblue;
+    border-radius: 25px;
+    border-style: double;
+    border-width: 5px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.under {
+    text-decoration: underline;
+}
+.centerize-input {
+    
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.custom-input {
+    width: 50;  /* Adjust this value as needed */
+    align-items: center;
+    justify-content: center; 
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <center><h5 class="under">ENGINEERING CUTOFF CALCULATOR</h5></center>
+    <div class="col">
+        <div class="row-md-4 ">
+            <h6>MATHS</h6>
+            <input type="number" class="form-control custom-input " id="a" placeholder="Enter Maths Mark...">
+        </div>
+        <div class="row-md-4 " >
+            <h6>PHYSICS</h6>
+            <input type="number" class="form-control custom-input" id="b" placeholder="Enter Physics Mark...">
+        </div>
+        <div class="row-md-4 ">
+            <h6>CHEMISTRY</h6>
+            <input type="number" class="form-control custom-input" id="c" placeholder="Enter Chemistry Mark...">
+        </div>
+		<div class="row-md-4 ">
+		<br>
+            <input type="number" class="form-control custom-input" id="output" placeholder=""readonly>
+        </div>
+    </div>
+    <br>
+    <div class="text-center">
+        <button type="button" class="btn btn-primary" onclick="addition()">Calculate</button>
+    </div>
+  
+</div>
+
+<script>
+function addition() {
+    var A = parseFloat(document.getElementById("a").value);
+    var B = parseFloat(document.getElementById("b").value);
+    var C = parseFloat(document.getElementById("c").value);
+    if (A > 100 || B > 100 || C > 100 || A <= 0 || B <= 0 || C <= 0)
+        document.getElementById("output").innerHTML = "INVALID INPUT";
+    else
+	{
+        document.getElementById("output").placeholder= (A + B / 2 + C / 2);
+		
+		}
+}
+</script>
+
+</body>
+</html>
+
