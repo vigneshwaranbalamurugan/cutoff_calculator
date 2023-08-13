@@ -66,6 +66,8 @@ function addition() {
     var A = parseFloat(document.getElementById("a").value);
     var B = parseFloat(document.getElementById("b").value);
     var C = parseFloat(document.getElementById("c").value);
+    if(A==" ")
+	    document.getElementById("output").innerHTML="INPUT NOT BE EMPTY";
     if (A > 100 || B > 100 || C > 100 || A <= 0 || B <= 0 || C <= 0)
         document.getElementById("output").innerHTML = "INVALID INPUT";
     else
