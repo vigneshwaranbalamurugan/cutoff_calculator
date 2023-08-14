@@ -56,9 +56,11 @@
     </div>
     <br>
     <div class="text-center">
-        <button type="button" class="btn btn-primary" onclick="addition()">Calculate</button>
+        <button type="button" class="btn btn-primary" onclick="addition()" onmouseover="message()">Calculate</button>
     </div>
-  
+    <div class="text-center">
+	    <p id="message"></p>
+    </div>
 </div>
 
 <script>
@@ -77,6 +79,9 @@ function addition() {
 function agri(){
    window.location.href ="agriculture.html";
 }
+	function message(){
+		document.getElementById("message").innerHTML="Enter to calculate cutoff";
+	}
 </script>
 <br>
 <br>
