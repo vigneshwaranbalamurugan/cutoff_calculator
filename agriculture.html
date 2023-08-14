@@ -71,8 +71,6 @@ function addition() {
     var B = parseFloat(document.getElementById("b").value);
     var C = parseFloat(document.getElementById("c").value);
 	 var D = parseFloat(document.getElementById("d").value);
-	if(A.trim()==="")
-		document.getElementById("output").value="MARKS MUST NOT BE EMPTY";
     if (A > 100 || B > 100 || C > 100 || A <= 0 || B <= 0 || C <= 0||D>100||D<=0)
         document.getElementById("output").value = "INVALID INPUT";
     else
