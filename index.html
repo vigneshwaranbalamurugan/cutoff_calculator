@@ -56,7 +56,7 @@
     </div>
     <br>
     <div class="text-center">
-        <button type="button" class="btn btn-primary" onclick="addition()" onmouseover="message()">Calculate</button>
+        <button type="button" class="btn btn-primary" onclick="addition()" onmouseover="message()" onmouseout="del()">Calculate</button>
     </div>
     <div class="text-center">
 	    <p id="message"></p>
@@ -81,6 +81,9 @@ function agri(){
 }
 	function message(){
 		document.getElementById("message").innerHTML="Enter to calculate cutoff";
+	}
+	function del(){
+		document.getElementById("message").innerHTML="";
 	}
 </script>
 <br>
