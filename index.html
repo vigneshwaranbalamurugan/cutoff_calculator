@@ -56,7 +56,7 @@
     </div>
     <br>
     <div class="text-center">
-        <button type="button" class="btn btn-primary" onclick="addition()" onmouseover="message()">Calculate</button>
+        <button type="button" class="btn btn-primary" onclick="addition()" onmouseover="message()" onmouseout="mes()">Calculate</button>
     </div>
     <div class="text-center">
 	    <h4 id="message">Enter To Calculate</h4>
@@ -81,6 +81,9 @@ function agri(){
 }
 	function message(){
 		document.getElementById("message").innerHTML="";
+	}
+	function mes(){
+		document.getElementById("message").innerHTML="Enter To Calculate";
 	}
 </script>
 <br>
