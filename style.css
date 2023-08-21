@@ -1,0 +1,25 @@
+.container {
+    border-color: black;
+    background-color: lightblue;
+    border-radius: 25px;
+    border-style: double;
+    border-width: 5px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.under {
+    text-decoration: underline;
+}
+.centerize-input {
+    
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.custom-input {
+    width: 100%;  /* Adjust this value as needed */
+    align-items: center;
+    justify-content: center; 
+}
