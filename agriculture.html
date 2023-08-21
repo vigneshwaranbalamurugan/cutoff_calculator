@@ -4,32 +4,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
 <style>
-.container {
-    border-color: black;
-    background-color: lightblue;
-    border-radius: 25px;
-    border-style: double;
-    border-width: 5px;
-    margin-top: 30px;
-    text-align: center;
-    padding: 20px;
-}
-
-.under {
-    text-decoration: underline;
-}
-.centerize-input {
-    
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-.custom-input {
-    width: 100%;  /* Adjust this value as needed */
-    align-items: center;
-    justify-content: center; 
-}
 </style>
 </head>
 <body>
@@ -65,21 +41,7 @@
   
 </div>
 
-<script>
-function addition() {
-    var A = parseFloat(document.getElementById("a").value);
-    var B = parseFloat(document.getElementById("b").value);
-    var C = parseFloat(document.getElementById("c").value);
-	 var D = parseFloat(document.getElementById("d").value);
-    if (A > 100 || B > 100 || C > 100 || A <= 0 || B <= 0 || C <= 0||D>100||D<=0)
-        document.getElementById("output").value = "INVALID INPUT";
-    else
-	{
-        document.getElementById("output").value="CUTTOFF:"+(A/2 + B / 2 + C / 2 +D/2);
-		
-		}
-}
-</script>
+<script src="script.js"></script>
 <br>
 <br>
 <center></h5>&#169;Developed by VIGNESHWARAN B</h5></center>
