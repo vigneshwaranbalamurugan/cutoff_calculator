@@ -21,7 +21,6 @@ This project is a web-based cutoff calculator designed for both engineering and 
 3. **Calculate Cutoff:** Click the "Calculate" button to obtain your cutoff score.
 
 ## **Screenshots**
-
-![Screenshot of Engineering Cutoff Calculator](/Screenshots/Engineering-cutoff.png)
-![Screenshot of Agriculture Cutoff Calculator](/Screenshots/agriculture-cutoff.png)
+<img src="./Screenshots/Engineering-cutoff.png" alt="Engineering" />
+<img src="./Screenshots/agriculture-cutoff.png" alt="Agri" />
    
