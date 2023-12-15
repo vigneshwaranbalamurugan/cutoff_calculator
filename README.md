@@ -16,7 +16,7 @@ This project is a web-based cutoff calculator designed for both engineering and 
 
 ## **How to Use**
 
-1. **Open the websiter using URL:**https://vigneshwaranbalamurugan.github.io/cutoff_calculator/.
+1. **Open the websiter using URL:** https://vigneshwaranbalamurugan.github.io/cutoff_calculator/.
 2. **Input Scores:** Fill in the required fields with your scores.
 3. **Calculate Cutoff:** Click the "Calculate" button to obtain your cutoff score.
 
