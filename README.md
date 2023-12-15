@@ -22,6 +22,6 @@ This project is a web-based cutoff calculator designed for both engineering and 
 
 ## **Screenshots**
 
-![Screenshot of Engineering Cutoff Calculator](screenshots/engineering-cutoff.png)
-![Screenshot of Agriculture Cutoff Calculator](screenshots/agriculture-cutoff.png)
+![Screenshot of Engineering Cutoff Calculator](Screenshots/Engineering-cutoff.png)
+![Screenshot of Agriculture Cutoff Calculator](Screenshots/agriculture-cutoff.png)
    
