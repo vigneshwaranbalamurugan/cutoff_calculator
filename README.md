@@ -3,16 +3,16 @@ This is a web-based cutoff calculator designed for both engineering and agricult
 
 ## **Features**
 
-:bulb:**Engineering Cutoff Calculation:** Users can input their scores in mathematics, physics, and chemistry to calculate their engineering admission cutoff.<br>
-:bulb:**Agriculture Cutoff Calculation:** For agriculture aspirants, input fields for biology, chemistry, and physics are available to compute the cutoff.<br>
-:bulb:**Responsive Design:** The calculator is designed to be **responsive**, ensuring a seamless user experience across various devices and screen sizes.<br>
-:bulb:**Error Handling:** The application provides **error handling** to ensure that users input valid scores within the specified range.
+- **Engineering Cutoff Calculation:** Users can input their scores in mathematics, physics, and chemistry to calculate their engineering admission cutoff.<br>
+- **Agriculture Cutoff Calculation:** For agriculture aspirants, input fields for biology, chemistry, and physics are available to compute the cutoff.<br>
+- **Responsive Design:** The calculator is designed to be **responsive**, ensuring a seamless user experience across various devices and screen sizes.<br>
+- **Error Handling:** The application provides **error handling** to ensure that users input valid scores within the specified range.
 
 ## **Technologies Used**
 
-:art: **HTML:** Structuring the web page elements.<br>
-:art: **CSS:** Styling the user interface for an appealing look.<br>
-:art: **JavaScript:** Implementing the calculation logic and interactivity.<br>
+ :art: **HTML:** Structuring the web page elements.<br>
+ :art: **CSS:** Styling the user interface for an appealing look.<br>
+ :art: **JavaScript:** Implementing the calculation logic and interactivity.<br>
 
 ## **How to Use**
 
