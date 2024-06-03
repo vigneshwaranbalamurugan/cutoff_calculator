@@ -1,6 +1,7 @@
 # **Engineering and Agriculture Cutoff Calculator**
 This is a web-based cutoff calculator designed for both engineering and agriculture aspirants. It allows users to calculate their admission cutoff scores based on provided input parameters. The calculator utilizes HTML, CSS, and JavaScript to offer an interactive and user-friendly interface.
 
+
 ## **Features**
 
 - **Engineering Cutoff Calculation:** Users can input their scores in mathematics, physics, and chemistry to calculate their engineering admission cutoff.<br>
